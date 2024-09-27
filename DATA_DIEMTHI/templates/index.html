@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Score</title>
+</head>
+
+<body>
+    <h1>Nhập điểm để dự đoán</h1>
+    <form action="/predict" method="post">
+        <label for="percent10">Điểm 10%:</label>
+        <input type="text" id="percent10" name="percent10" required><br><br>
+        <label for="percent20">Điểm 20%:</label>
+        <input type="text" id="percent20" name="percent20" required><br><br>
+        <label for="percent20_1">Điểm 20% (Lần 1):</label>
+        <input type="text" id="percent20_1" name="percent20_1" required><br><br>
+        <input type="submit" value="Dự đoán">
+    </form>
+</body>
+
+</html>
